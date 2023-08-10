@@ -60,4 +60,5 @@ def crack_wifi_password(ssid):
         password_length += 1
 
 # Użyj funkcji, podając nazwę sieci (SSID)
-crack_wifi_password("TP-LINK OB29")
+ssid = input('Podaj ssid (nazwę) sieci, której chcesz poznać hasło: ')
+crack_wifi_password(ssid)
